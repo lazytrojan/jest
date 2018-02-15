@@ -1,0 +1,31 @@
+{
+  "name": "jest-coverage",
+  "version": "1.0.0",
+  "description": "test coverage for javascript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.3.0",
+    "jest-html-reporter": "^1.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelazytrojan/jest.git"
+  },
+  "author": "thelazytrojan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelazytrojan/jest/issues"
+  },
+  "homepage": "https://github.com/thelazytrojan/jest#readme",
+  
+  "jest": {
+    "bail": true,
+    "verbose": true,
+    "collectCoverage": true,
+    "mapCoverage": true
+  }
+}

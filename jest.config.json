@@ -1,0 +1,7 @@
+{
+    "bail": true,
+    "verbose": true,
+    "collectCoverage": true,
+    "mapCoverage": true,
+    "coverageReporters" : ["json", "lcov", "text"]
+}
